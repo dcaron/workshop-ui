@@ -1,0 +1,10 @@
+---
+applications:
+- name: workshop-ui
+  random-route: true
+  path:  ./target/workshop-ui-0.0.1-SNAPSHOT.jar
+  services:
+  - tcs-config
+  - tcs-cloud-bus
+  - tcs-registry
+  - tcs-circuit-breaker
